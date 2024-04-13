@@ -1,0 +1,45 @@
+.kakao {
+  color: black;
+  background-color: #ffe500;
+
+  width: 400px;
+  border-radius: 10px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.facebook {
+  color: white;
+  background-color: #3a5898;
+
+  width: 400px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.apple {
+  color: black;
+  background-color: white;
+
+  /* border: 두께 스타일 색상 */
+  border: 1px solid #dbdbdb;
+
+  width: 400px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
