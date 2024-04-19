@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "NanumBarunGothicBold";
+  src: "https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css";
+}
+
+body {
+  font-family: "NanumBarunGothic";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.area {
+  display: flex;
+  gap: 10px;
+}
+
+.box {
+  text-align: center;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  background-color: white;
+  border: 1px solid #094abc;
+  border-radius: 10px;
+  width: 100vw;
+  padding: 50px 0px;
+}
+
+i {
+  font-size: 45px;
+  color: #094abc;
+}

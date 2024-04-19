@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "NanumBarunGothicBold";
+  src: "https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-family: "NanumBarunGothicBold";
+}
+
+.button {
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #edeced;
+  border-radius: 50px;
+
+  /* padding: 12 3 6 9 상하좌우 */
+  padding: 10px 16px;
+
+  /* 마우스 올렸을 때 커서가 바뀌는 css */
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #1472e5;
+  border: 1px solid #1472e5;
+  color: white;
+}

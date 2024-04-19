@@ -1,0 +1,70 @@
+.first {
+  background-color: #55efc4;
+  height: 100vh;
+  width: 100vw;
+}
+
+.second {
+  background-color: #ff7675;
+  height: 100vh;
+  width: 80vw;
+}
+
+.third {
+  background-color: #fdcb6e;
+  height: 100vh;
+  width: 60vw;
+}
+
+.fourth {
+  background-color: #a29bfe;
+  height: 100vh;
+  width: 40vw;
+}
+
+.fifth {
+  background-color: #dfe6e9;
+  height: 100vh;
+  width: 20vw;
+}
+
+.palette {
+  width: 100vw;
+  height: 400px;
+
+  display: flex;
+
+  /* main축(주축) 기준으로 정렬 / row 메인축 아래쪽, column 메인축 오른쪽 */
+  /* justify-content: center; */
+
+  /* cross축(교차축) 기준으로 정렬 */
+  /* align-items: flex-end; */
+
+  /* flex-direction: 자식의 방향 - 가로 (row) or 세로 (column), reverse: 역방향 */
+  /* flex-direction: column; */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.sunflower {
+  background-color: #f1c40f;
+}
+
+.carrot {
+  background-color: #d35400;
+}
