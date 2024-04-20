@@ -1,0 +1,63 @@
+body {
+  height: 300vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  display: flex;
+}
+
+.down {
+  display: flex;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.turquoise {
+  background-color: #1abc9c;
+}
+
+.turquoise > span {
+  /* 현재위치에서 움직이기 */
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+
+.emerald {
+  background-color: #2ecc71;
+}
+
+.emerald > span {
+  /* 도큐먼트 기준 */
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.greensea {
+  background-color: #16a085;
+}
+
+.greensea > span {
+  /* position: static; 기본값 */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.nephritis {
+  background-color: #27ae60;
+}
+
+.nephritis > span {
+  position: sticky;
+  top: 100px;
+}

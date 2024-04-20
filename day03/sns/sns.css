@@ -1,0 +1,94 @@
+@font-face {
+  /* 오뮤이쁨체 */
+  font-family: "omyu_pretty";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* KCC한빛체 */
+  font-family: "KCC-Hanbit";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding: 10px;
+}
+
+.container {
+  width: 360px;
+  height: 640px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  border-radius: 30px;
+
+  transition: all 0.5s;
+  transition-property: all;
+}
+
+.profile_img {
+  width: 100px;
+  height: 100px;
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTAPp4Cyx0uAkK3RupL-EZJ4z-BPsC01kCIoBIbfPlyW208WBn_);
+  background-size: contain;
+  border-radius: 50px;
+}
+
+.profile_intro {
+  color: white;
+  font-family: "omyu_pretty";
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.text_category {
+  font-family: "KCC-Hanbit";
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box {
+  text-align: center;
+
+  padding: 15px 80px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.box:hover {
+  cursor: pointer;
+  filter: opacity(50%);
+}
+
+.icons__box {
+  font-size: 30px;
+  color: white;
+
+  display: flex;
+  gap: 20px;
+}

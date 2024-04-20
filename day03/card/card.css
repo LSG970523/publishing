@@ -1,0 +1,42 @@
+body {
+  padding: 10px;
+  text-shadow: 0px 0px 10px #999;
+}
+
+@font-face {
+  font-family: "WAGURITTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/WAGURITTF.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+
+  border-radius: 30px;
+  width: 300px;
+  height: 400px;
+  background-image: url(https://i.namu.wiki/i/_hq5t3IouRBrCXie5vxKl6vERVS8fTG80MGHw_XenZjWGYPrMFfPqbRiOgeJWQEAgudSWFFtaS-G9w_JdkK1iw.webp);
+  background-size: cover;
+
+  cursor: pointer;
+}
+
+.h1 {
+  font-family: "WAGURITTF";
+  font-size: 30px;
+}
+
+.h3 {
+  font-size: 16px;
+}
+
+.underline {
+  text-decoration: underline;
+}
