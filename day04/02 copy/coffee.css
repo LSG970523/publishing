@@ -1,0 +1,99 @@
+@font-face {
+  /* 밑미 */
+  font-family: "Ownglyph_meetme-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 속초바다 */
+  font-family: "SokchoBadaBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaBatang.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 프리텐다드 */
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.coffee {
+  width: 280px;
+  height: 400px;
+  padding: 20px;
+
+  background-color: #f5f5f5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+
+  position: relative;
+}
+
+.drink_img {
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.drink_img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.drink_img:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  padding: 10px 30px;
+
+  background-color: #243c84;
+  color: white;
+}
+
+.mask {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5f5f5;
+  filter: brightness(0.9);
+  opacity: 0;
+
+  transition: all 0.5s ease;
+}
+
+.coffee:hover .mask {
+  /* 커피에 hover했을때 mask의 속성값 바꾸기 */
+  opacity: 0.8;
+}

@@ -1,0 +1,28 @@
+.main {
+  animation: main-opacity 3s ease;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  animation: arrow-animation 1.5s ease infinite;
+}
+
+@keyframes main-opacity {
+  from {
+    filter: opacity(0%);
+  }
+  to {
+    filter: opacity(100%);
+  }
+}
+
+@keyframes arrow-animation {
+  from {
+    filter: opacity(100%);
+    transform: translateY(0px);
+  }
+  to {
+    filter: opacity(0%);
+    transform: translateY(-30px);
+  }
+}

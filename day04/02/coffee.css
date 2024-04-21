@@ -1,0 +1,91 @@
+@font-face {
+  /* 밑미 */
+  font-family: "Ownglyph_meetme-Rg";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/Ownglyph_meetme-Rg.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 속초바다 */
+  font-family: "SokchoBadaBatang";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_1@1.0/SokchoBadaBatang.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* 프리텐다드 */
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Pretendard-Regular";
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  width: 300px;
+  height: 400px;
+  padding: 30px 5px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5f5f5;
+}
+
+.drink_menu {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 7px;
+}
+
+.drink_img {
+  width: fit-content;
+  transition: all 0.5s ease;
+}
+
+.drink_img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.button {
+  width: 100px;
+  height: 30px;
+  padding: 7px 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #243c84;
+}
+
+.button > span {
+  color: white;
+}
+
+.button > span:hover {
+  cursor: pointer;
+}
+
+.soldout:hover {
+  content: "품절입니다";
+  filter: brightness(0.3);
+}
