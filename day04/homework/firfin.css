@@ -1,0 +1,131 @@
+@font-face {
+  /* 프리젠테이션 */
+  font-family: "Freesentation-9Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  /* 프리텐다드 */
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  background-color: #bea9ed;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.main_container {
+  padding-top: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+}
+
+.main_txt {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main_txt > h1 {
+  font-family: "Freesentation-9Black";
+  font-size: 80px;
+}
+
+.sub_txt > h3 {
+  font-family: "Pretendard-Regular";
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.app_down {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  font-size: 20px;
+  font-weight: bold;
+
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.main_img {
+  display: flex;
+  align-items: flex-end;
+
+  padding-left: 220px;
+}
+
+.img_top {
+  width: 600px;
+  height: 800px;
+
+  background-image: url(https://www.firfin.family/assets/images/main/img_top.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.navi {
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 700px;
+
+  position: fixed;
+}
+
+.logo {
+  font-family: "Freesentation-9Black";
+  font-size: 40px;
+}
+
+.items {
+  font-family: "Pretendard-Regular";
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  gap: 30px;
+}
+
+.category:hover {
+  cursor: pointer;
+  color: #8f69dd;
+}
