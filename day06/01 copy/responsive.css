@@ -18,4 +18,8 @@ body {
   .inner > i {
     display: block;
   }
+
+  header > .inner {
+    max-width: 500px;
+  }
 }
