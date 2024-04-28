@@ -1,0 +1,65 @@
+.first {
+  /* 부모 포지션 */
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+}
+
+.first > .introduce {
+  /* 중앙정렬 */
+  /* 자식 포지션: 부모 안에서만 돌아다니게됨 */
+  /* left rihgt 0 반드시 줘야함 */
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  /* 상하0px 좌우max-width 맞춰서 알아서 */
+
+  color: var(--color-White);
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.introduce > h1 {
+  font-family: var(--font-Freesentation);
+  font-size: var(--font-MEGA);
+}
+
+.introduce > span {
+  font-family: var(--font-Pretendard);
+  font-size: var(--font-S);
+  margin-bottom: 30px;
+}
+
+.button {
+  font-size: var(--font-XS);
+  font-weight: bold;
+
+  width: fit-content;
+  padding: 6px 90px;
+
+  border: 1px solid var(--color-White);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.first > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  filter: brightness(0.3);
+  opacity: 0.9;
+}

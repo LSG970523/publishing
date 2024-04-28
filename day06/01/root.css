@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  /* font-family */
+  --font-Freesentation: "Freesentation-9Black";
+  --font-Pretendard: "Pretendard-Regular";
+  --font-Gmarket: "GmarketSansMedium";
+
+  /* font-size */
+  --font-XS: 10px;
+  --font-S: 13px;
+  --font-M: 16px;
+  --font-L: 19px;
+  --font-XL: 23px;
+  --font-MEGA: 100px;
+
+  /* color */
+  --color-White: #fdfdfd;
+  --color-gray: #666666;
+  --color-Black: #333333;
+  --color-DarkSapphire: #0c2461;
+
+  /*  */
+  --max-width: 1180px;
+}
+
+body {
+  overflow-x: hidden;
+}
