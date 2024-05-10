@@ -1,4 +1,4 @@
-.first {
+figure {
   /* 부모 포지션 */
   position: relative;
   width: 100vw;
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.first > .introduce {
+figure > .introduce {
   /* 중앙정렬 */
   /* 자식 포지션: 부모 안에서만 돌아다니게됨 */
   /* left rihgt 0 반드시 줘야함 */
