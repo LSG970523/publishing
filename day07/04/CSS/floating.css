@@ -1,0 +1,25 @@
+.floating--area {
+  position: fixed;
+  right: 100px;
+  bottom: 80px;
+  filter: drop-shadow(rgba(255, 81, 96, 0.5) 0px 4px 12px);
+  z-index: 1;
+}
+
+.floating--area--button {
+  padding: var(--padding-button);
+  border: none;
+  border-radius: var(--borderRadius-small);
+
+  font-family: "Pretendard-Regular";
+  text-align: center;
+  font-size: var(--font-size-small);
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--pink500);
+}
+
+.floating--area--button:hover {
+  cursor: pointer;
+  background-color: var(--pink600);
+}

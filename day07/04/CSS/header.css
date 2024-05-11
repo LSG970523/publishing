@@ -1,0 +1,40 @@
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+
+  background-color: var(--white);
+  z-index: 1;
+}
+
+nav {
+  width: 100%;
+  max-width: var(--max-width-Desktop);
+  margin: 0 auto;
+  padding: 10px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gnb {
+  display: flex;
+  gap: 4px;
+}
+
+.gnb > li {
+  font-weight: 700;
+  padding: var(--padding-button);
+  border-radius: var(--borderRadius-midium);
+}
+
+.gnb > li:hover {
+  background-color: var(--gray100);
+  cursor: pointer;
+}
+
+.act {
+  color: var(--pink500);
+}
