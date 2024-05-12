@@ -1,0 +1,64 @@
+@font-face {
+  /* 런드리고딕 */
+  font-family: "TTLaundryGothicB";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  /* HS여름물빛체2.0 */
+  font-family: "HSYeoleum20-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2405@1.0/HSYeoleum20-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  /* 프리텐다드 */
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  /* tiny mini extraSmall small , normal , large extraLarge huge mega */
+
+  /* font */
+  --Pretendard-font: "Pretendard-Regular";
+  --Yeoleum-font: "HSYeoleum20-Regular";
+  --Laundry-font: "TTLaundryGothicB";
+
+  --font-small: 16px;
+  --font-normal: 20px;
+  --font-large: 24px;
+  --font-extraLarge: 30px;
+
+  /* color */
+  --white: #fdfdfd;
+  --black: #232323;
+  --pink: #f78fb3;
+  --green: #079992;
+  --purple: #be2edd;
+
+  --gray400: #444;
+  --gray500: #555;
+  --gray600: #666;
+  --gray700: #777;
+  --gray800: #888;
+  --gray900: #999;
+
+  /* arr */
+  --max-width-Desktop: 1150px;
+  --max-width-Tablet: 860px;
+  --max-width-Mobile: 560px;
+
+  --max-width-margin: 0 auto;
+
+  --padding-extraSmall: 15px;
+  --padding-small: 20px;
+  --padding-normal: 25px;
+  --padding-big: 40px;
+}
