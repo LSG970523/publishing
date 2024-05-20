@@ -1,6 +1,6 @@
 header {
   width: 100vw;
-  background-color: var(--white);
+  border-bottom: 1px solid var(--green);
 
   position: fixed;
   z-index: 1;
@@ -8,26 +8,34 @@ header {
 
 header > nav {
   width: 100%;
-  max-width: var(--max-width-Desktop);
-  margin: var(--max-width-margin);
+  max-width: var(--max-width-pc);
+  margin: var(--centering-margin);
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-a {
-  font-family: var(--Laundry-font);
+.main_logo {
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-big);
   color: var(--green);
-  padding: var(--padding-normal);
+
+  padding: 18px 0;
 }
 
 .gnb {
   display: flex;
+  gap: 20px;
 }
 
 .gnb > li {
-  padding: var(--padding-normal);
+  font-size: var(--font-size-basic);
+  text-align: center;
+  width: 150px;
+  padding: 25px 0;
+
+  transition: all 0.25s ease;
 }
 
 .gnb > li:hover {
@@ -37,29 +45,10 @@ a {
   background-color: var(--green);
 }
 
-.tabletIcon {
+.header_bars {
   display: none;
 }
 
-/* 반응형 */
-@media screen and (max-width: 1024px) {
-  header > nav,
-  .iam__gird-layout,
-  .project-wrapper {
-    max-width: var(--max-width-Tablet);
-  }
-  .gnb {
-    display: none;
-  }
-  .tabletIcon {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  header > nav,
-  .iam__gird-layout,
-  .project-wrapper {
-    max-width: var(--max-width-Mobile);
-  }
+.header_bars {
+  color: var(--green);
 }

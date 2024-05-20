@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta property="og:title" content="임수경 포폴" />
-    <meta property="og:description" content="HTML/CSS 포폴" />
-    <meta
-      property="og:image"
-      content="https://cdn.pixabay.com/photo/2022/09/02/13/35/mountains-7427623_1280.jpg"
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
     />
 
-    <title>LSG</title>
-    <link rel="stylesheet" href="CSS/reset.css" />
+    <!-- fontawesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -20,127 +20,163 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/root.css" />
-    <link rel="stylesheet" href="CSS/main.css" />
     <link rel="stylesheet" href="CSS/header.css" />
+    <link rel="stylesheet" href="CSS/hero.css" />
+    <link rel="stylesheet" href="CSS/iam.css" />
     <link rel="stylesheet" href="CSS/project.css" />
     <link rel="stylesheet" href="CSS/contact.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/media.css" />
+    <title>Forest</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href="#">SUGYEONG</a>
+        <a href="#" class="main_logo">Forest</a>
+
+        <div class="header_bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
 
         <ul class="gnb">
-          <li>IAM</li>
-          <li>PROJECT</li>
-          <li>CONTACT</li>
+          <li>CATEGORY</li>
+          <li>CATEGORY</li>
+          <li>CATEGORY</li>
+          <li>CATEGORY</li>
         </ul>
-
-        <a class="tabletIcon"><i class="fa-solid fa-bars"></i></a>
       </nav>
     </header>
 
     <main>
       <figure class="hero">
-        <img
-          src="https://cdn.pixabay.com/photo/2018/08/21/23/29/forest-3622519_1280.jpg"
-          alt=""
-        />
+        <img src="IMG/hero-1.jpg" alt="" />
+        <div class="hero_jumbotron">
+          <h1>LOREM IPSUM</h1>
+          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit.</p>
+        </div>
       </figure>
 
-      <section class="iam__section">
-        <div class="iam__gird-layout">
-          <div class="iam__item">
-            <div class="icon"><i class="fa-solid fa-user"></i></div>
-            <div class="description">
-              <h3>이름</h3>
-              <h5>임수경</h5>
-            </div>
+      <section class="iam">
+        <div class="title">
+          <h3>I AM</h3>
+          <p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit.
+          </p>
+        </div>
+
+        <div class="iam_layout">
+          <div class="iam_item">
+            <div class="img_box"></div>
+            <div class="iam_description_box">EXPLAINATION</div>
           </div>
-          <div class="iam__item">
-            <div class="icon"><i class="fa-solid fa-phone"></i></div>
-            <div class="description">
-              <h3>전화</h3>
-              <h5>9611-0852</h5>
-            </div>
+          <div class="iam_item">
+            <div class="img_box"></div>
+            <div class="iam_description_box">EXPLAINATION</div>
           </div>
-          <div class="iam__item">
-            <div class="icon"><i class="fa-brands fa-github"></i></div>
-            <div class="description">
-              <h3>깃헙</h3>
-              <h5>sugyeong97</h5>
-            </div>
+          <div class="iam_item">
+            <div class="img_box"></div>
+            <div class="iam_description_box">EXPLAINATION</div>
           </div>
-          <div class="iam__item">
-            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
-            <div class="description">
-              <h3>주소</h3>
-              <h5>부천시</h5>
-            </div>
+          <div class="iam_item">
+            <div class="img_box"></div>
+            <div class="iam_description_box">EXPLAINATION</div>
           </div>
         </div>
       </section>
 
       <section class="project">
-        <div class="project-wrapper">
-          <div class="project__content">
-            <h3>TITLE</h3>
-            <div class="project__box"></div>
+        <div class="project_layout">
+          <div class="project_description_box">
+            <h3>PROJECT 01</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-              In sagittis purus sit amet felis aliquam, at aliquam odio
-              consequat.
+              dolorem ipsum quia dolor sit amet consectetur adipisci velit.<br />
+              There is no one who loves pain itself who seeks after it and<br />
+              wants to have it simply because it is pain.
             </p>
+            <div class="project_button">View !</div>
           </div>
-          <div class="project__content">
-            <h3>TITLE</h3>
-            <div class="project__box"></div>
+          <div class="project_img_box"></div>
+        </div>
+
+        <div class="project_layout">
+          <div class="project_img_box"></div>
+          <div class="project_description_box">
+            <h3>PROJECT 02</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-              In sagittis purus sit amet felis aliquam, at aliquam odio
-              consequat.
+              dolorem ipsum quia dolor sit amet consectetur adipisci velit.<br />
+              There is no one who loves pain itself who seeks after it and<br />
+              wants to have it simply because it is pain.
             </p>
+            <div class="project_button">View !</div>
           </div>
-          <div class="project__content">
-            <h3>TITLE</h3>
-            <div class="project__box"></div>
+        </div>
+
+        <div class="project_layout">
+          <div class="project_description_box">
+            <h3>PROJECT 03</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-              In sagittis purus sit amet felis aliquam, at aliquam odio
-              consequat.
+              dolorem ipsum quia dolor sit amet consectetur adipisci velit.<br />
+              There is no one who loves pain itself who seeks after it and<br />
+              wants to have it simply because it is pain.
             </p>
+            <div class="project_button">View !</div>
           </div>
+          <div class="project_img_box"></div>
         </div>
       </section>
 
       <section class="contact">
-        <div class="contact__form">
-          <div class="wrapper">
-            <h3>이름</h3>
-            <div class="box"></div>
+        <div class="contact_box">
+          <div class="contact_title">CONTACT ME !</div>
+
+          <div class="contact_item">
+            <div class="box">성함</div>
+            <div class="box">번호</div>
+            <div class="box">메일</div>
+            <div class="box">위치</div>
           </div>
-          <div class="wrapper">
-            <h3>이름</h3>
-            <div class="box"></div>
-          </div>
-          <div class="wrapper">
-            <h3>이름</h3>
-            <div class="box"></div>
-          </div>
-          <div class="wrapper">
-            <h3>이름</h3>
-            <div class="box"></div>
-          </div>
-          <div class="wrapper">
-            <h3>이름</h3>
-            <div class="box"></div>
-          </div>
-          <div class="button">SEND</div>
+
+          <div class="contact_send_btn">보 내 기</div>
         </div>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer_arr">
+        <div class="upper">
+          <div class="footer_name">Forest</div>
+
+          <div class="footer_bars">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+
+          <ul class="footer_fnb">
+            <li>CATEGORY</li>
+            <li>CATEGORY</li>
+            <li>CATEGORY</li>
+            <li>CATEGORY</li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <div class="lower">
+          <p>
+            There is no one who loves pain itself who seeks after it and wants
+            to have it simply because it is pain.
+          </p>
+          <address>ADDRESS 서울시 강남구 | TEL 010-1234-5678</address>
+
+          <div class="copyright">
+            2024 Forest &copy; copyright all right reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

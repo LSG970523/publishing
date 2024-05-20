@@ -1,59 +1,48 @@
 .project {
   width: 100vw;
+  background-color: var(--light-gray);
 }
 
-.project-wrapper {
+.project_layout {
   width: 100%;
-  max-width: var(--max-width-Desktop);
-  margin: var(--max-width-margin);
 
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
+  max-width: var(--max-width-pc);
+  margin: var(--centering-margin);
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.project__content {
-  width: var(--max-width-Desktop);
-  height: 500px;
-  scroll-snap-align: start;
+.project_description_box {
+  width: 100%;
+  padding: 250px 0;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.project__content > h3 {
-  font-size: var(--padding-normal);
+.project_description_box > h3 {
+  font-family: var(--font-family-important);
+  font-size: var(--font-size-big);
 }
-.project__content > p {
-  font-size: var(--padding-extraSmall);
-}
-
-.project__box {
-  width: 400px;
-  height: 300px;
-  background-color: #82ccdd;
+.project_description_box > p {
+  line-height: 1.3;
 }
 
-/* 반응형 */
-@media screen and (max-width: 1024px) {
-  .project__content {
-    width: var(--max-width-Mobile);
-  }
+.project_img_box {
+  width: 100%;
+  padding: 250px 0;
 
-  .project__box {
-    width: 300px;
-    height: 200px;
-  }
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
 }
 
-@media screen and (max-width: 768px) {
-  .project__content {
-    width: 500px;
-  }
+.project_button {
+  padding: 8px 60px;
+  border: 1px solid var(--green);
+}
+
+.project_button:hover {
+  cursor: pointer;
 }
